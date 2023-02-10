@@ -19,19 +19,29 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#about"
-          onClick={() => handlePageChange('About')}
+          onClick={() => handlePageChange('About Me')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          About Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
         <a
           href="#blog"
           onClick={() => handlePageChange('Blog')}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Blog
         </a>
@@ -47,7 +57,27 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    
   );
 }
 
 export default NavTabs;
+
+
+
+
+// const renderPage = () => {
+//   if (currentPage === 'Home') {
+//     return <Home />;
+//   }
+//   if (currentPage === 'About Me') {
+//     return <About />;
+//   }
+//   if (currentPage === 'Portfolio') {
+//     return <Portfolio />;
+//   }
+//   if (currentPage === 'Blog') {
+//     return <Blog />;
+//   }
+//   return <Contact />;
+// };

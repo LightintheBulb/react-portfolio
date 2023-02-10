@@ -1,2 +1,9 @@
 node_modules
 build
+.env
+.DS_Store
+package-lock.json
+.vscode
+/readmegenerator
+/Assets
+assignment-README.md

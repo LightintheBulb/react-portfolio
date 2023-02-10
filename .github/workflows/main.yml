@@ -1,0 +1,48 @@
+name: CI/CD Deploy static site
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build:
+        name: Build and deploy website
+        runs-on: ubuntu-latest
+        
+        strategy:
+          matrix:
+            node-version: [16.17.0]
+        
+        
+        
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+           
+            - name: Set up Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v1
+              with:
+                node-version: ${{ matrix.node-version }}
+
+            - name: Install dependencies
+              run: npm install
+
+            - name: Run the tests and generate coverage report
+              run: npm test -- --coverage
+
+            # - name: Upload coverage to Codecov
+            #   uses: codecov/codecov-action@v1
+
+            - name: Build
+              run: npm run build               
+           
+            - name: Copy folder content recursively to remote
+              uses: garygrossgarten/github-action-scp@release
+              with:
+                local: ./demo-app/build
+                remote: /data/sites/shawncthomas
+                host: ${{ secrets.DEPLOY_HOST }}
+                username: ${{ secrets.DEPLOY_SSH_USER }}
+                password: ${{ secrets.PASSWORD }}
+

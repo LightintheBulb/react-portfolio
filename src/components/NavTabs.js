@@ -21,7 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#about"
           onClick={() => handlePageChange('About Me')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
         >
           About Me
         </a>
@@ -41,7 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#blog"
           onClick={() => handlePageChange('Blog')}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
         >
           Blog
         </a>
@@ -62,22 +62,3 @@ function NavTabs({ currentPage, handlePageChange }) {
 }
 
 export default NavTabs;
-
-
-
-
-// const renderPage = () => {
-//   if (currentPage === 'Home') {
-//     return <Home />;
-//   }
-//   if (currentPage === 'About Me') {
-//     return <About />;
-//   }
-//   if (currentPage === 'Portfolio') {
-//     return <Portfolio />;
-//   }
-//   if (currentPage === 'Blog') {
-//     return <Blog />;
-//   }
-//   return <Contact />;
-// };

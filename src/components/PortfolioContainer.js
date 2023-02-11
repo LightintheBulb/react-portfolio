@@ -5,7 +5,7 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import SocialLinks from './pages/SocialLinks';
+import SocialLinks from './SocialLinks';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -13,18 +13,18 @@ export default function PortfolioContainer() {
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderTabs = () => {
     if (currentPage === 'Home') {
-      return <{Home , SocialLinks}  />;
+      return <Home />;
     }
     if (currentPage === 'About Me') {
-      return <About , SocialLinks  />;
+      return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio , SocialLinks  />;
+      return <Portfolio />;
     }
     if (currentPage === 'Blog') {
-      return <Blog , SocialLinks  />;
+      return <Blog />;
     }
-    return <Contact , SocialLinks  />;
+    return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -35,40 +35,14 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderTabs()}
-    </div>
+    </div>,
+
+    <footer>
+      <SocialLinks currentPage={currentPage} />
+      {rendertab()}
+    </footer>
   );
 }
-
-
-// export function SocialContainer() {
-// const [currentPage2, setCurrentPage2] = useState('Home');
-
-//   const renderSociallinks = () => {
-//     if (currentPage2 === 'Home') {
-//       return <SocialLinks />;
-//     }
-//     if (currentPage2 === 'About Me') {
-//       return <SocialLinks />;
-//     }
-//     if (currentPage2 === 'Portfolio') {
-//       return <SocialLinks />;
-//     }
-//     if (currentPage2 === 'Blog') {
-//       return <SocialLinks />;
-//     }
-//     return <SocialLinks />;
-//   };
-
-// const handlePageChange2 = (page) => setCurrentPage2(page);
-
-//   return (
-//     <footer>
-//       <div className="footer">
-//       <SocialLinks currentPage2={currentPage2} handlePageChange2={handlePageChange2} />
-//       {renderSociallinks()}
-//       </div>
-//     </footer>
-//   );
 
 
 

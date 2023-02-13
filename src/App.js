@@ -1,9 +1,13 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-// import SocialContainer from "./components/PortfolioContainer";
+import Footer from "./components/Footer";
 import './App.css';
 
-const App = () => <PortfolioContainer />;
+const App = () => 
+<div className="App">
+    <PortfolioContainer />
+    <Footer />
+</div>
 
 
 export default App;

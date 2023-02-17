@@ -1,21 +1,16 @@
 import React from 'react';
+import Project from '../components/Projects';
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio PAGE</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div className='mx-auto'><h1>Portfolio</h1>
+    <div className='custom-portfolio-container card'>
+    <div className='px-4 py-3 mx-auto'>
+      <h2 className='contact-header p-2' style={{ position: 'center' }}>Projects</h2>
+      <hr style={{ borderTop: 'solid 10px rgb(0, 0, 0)' }} />
+      <Project />
     </div>
-  );
+  </div>
+  </div>
+);
 }

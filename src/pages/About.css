@@ -12,3 +12,28 @@
 
   }
   
+  @media screen and (max-width: 428px) {
+    .profile-pic {
+        width: 300px;
+        justify-content: center;
+        float: center;
+        display: block;
+        border-radius: 10px;
+        padding-bottom: 1px;
+        margin-top: -2px;
+        margin-bottom: 1px;
+        margin-right: 1px;
+    }
+
+    .about-figure-image{
+        justify-content: center;
+        display: flex;
+        margin-top: 5%;
+    }
+
+    .card-title{
+        justify-content: center;
+        display: flex;
+        
+    }
+  }

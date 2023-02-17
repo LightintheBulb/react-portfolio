@@ -12,3 +12,10 @@
     --shadowBoxcolor: rgba(244, 236, 32, 0.9);
     --dividerColor: rgba(0, 0, 0, 0.9);
 }
+
+@media screen and (max-width: 428px) {
+    .card-title{
+        justify-content: center;
+        text-decoration: underline;
+    }
+  }

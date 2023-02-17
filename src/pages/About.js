@@ -8,7 +8,7 @@ export default function About() {
       <div className='card mx-auto custom-card'>
         <div className='card-body'>
           <div className='col-sm-6 col-md-2 pr-3 mb-4'>
-          <figure className='about-figure-image'>
+      <figure className='about-figure-image'>
           {/* <img src={aboutPhoto} className='profile-pic mx-4 mt-4' alt='Profile Pic 1'/> */}
           <img src={aboutPhoto} className='profile-pic' alt='Profile Pic 1'/>
           {/* <img src={aboutPhoto} className='img-fluid mb-3 cmb-headshot' alt='Profile Pic 1'/> */}

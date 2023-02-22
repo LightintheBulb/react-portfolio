@@ -24,7 +24,7 @@ export default function Footer() {
           <a href="https://www.instagram.com" target= "_blank" rel="noreferrer" ><i className="fa-brands fa-instagram fa-xl px-3"></i></a>
         </li>
       </ul>
-      <p className="copywrite-info">{"[Copy Right infor here]"}</p>
+      <p className="copywrite-info">{}</p>
       </div>
     </footer>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Footer from "./components/Footer";
+import ContactNobackend from "./components/ContactNobackend";
 import "./App.css";
 
 const App = () => (

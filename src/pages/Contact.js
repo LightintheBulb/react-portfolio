@@ -1,22 +1,38 @@
 import React from 'react';
+import ContactNobackend from '../components/ContactNobackend';
 
 export default function Contact() {
   return (
     <div>
       <h1>Contact PAGE</h1>
       <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+      <ContactNobackend />
       </p>
     </div>
   );
 }
+
+
+
+
+
+
+// import React from 'react';
+// import Project from '../components/Projects';
+
+// export default function Portfolio() {
+//   return (
+//     <div>
+//     <div className='card-title mt-4 mb-4'><h1>My Work</h1>
+//     <hr style={{ borderTop: 'solid 10px rgb(33, 2, 4)' }} />
+//     </div>
+//     <div className='custom-portfolio-container card'>
+//     <div className='px-4 py-3 mx-auto'>
+//       <h2 className='contact-header p-2' style={{ position: 'center' }}>Projects</h2>
+//       <hr style={{ borderTop: 'solid 10px rgb(0, 0, 0)' }} />
+//       <Project />
+//     </div>
+//   </div>
+//   </div>
+// );
+// }

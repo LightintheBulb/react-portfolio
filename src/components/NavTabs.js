@@ -7,19 +7,19 @@ export default function  NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="NavTab-container">
             <p className="test">Shawn Thomas</p>
-      <ul className="nav nav-tabs sticky-top">
+      <ul className="nav nav-tabs sticky-md-top">
         <div className="nav-items nav">
 
         <li className="nav-item">
-          <a
+          {/* <a
             href="#home"
-            onClick={() => handlePageChange("Home")}
+            onClick={() => handlePageChange("Shawn Thomas")}
             // This is a conditional (ternary) operator that checks to see if the current page is "Home"
             // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
             className={currentPage === "Home" ? "nav-link active" : "nav-link"}
           >
             Home
-          </a>
+          </a> */}
         </li>
         <li className="nav-item">
           <a

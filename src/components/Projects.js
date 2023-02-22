@@ -19,7 +19,7 @@ export default function Projects() {
       title: "Project 1: Flycast Trip Planner",
       img: flycastTripPlanner,
       deployLink: "https://zberkley88.github.io/flycast-trip-planner",
-      repoLink: "https://github.com/mbronstein1/Couch-Potato",
+      repoLink: "https://zberkley88.github.io/flycast-trip-planner/",
     },
     {
       id: 3,

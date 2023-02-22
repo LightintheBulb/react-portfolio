@@ -31,6 +31,10 @@ jobs:
             - name: Build
               run: npm run build               
            
+            - name: echo the env var
+              run: echo $HELLO_WORLD
+            
+
             - name: Copy folder content recursively to remote
               uses: garygrossgarten/github-action-scp@release
               with:

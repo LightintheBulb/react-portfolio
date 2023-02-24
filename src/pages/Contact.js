@@ -4,10 +4,7 @@ import ContactNobackend from '../components/ContactNobackend';
 export default function Contact() {
   return (
     <div>
-      <h1>Contact PAGE</h1>
-      <p>
       <ContactNobackend />
-      </p>
     </div>
   );
 }

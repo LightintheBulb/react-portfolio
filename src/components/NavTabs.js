@@ -6,7 +6,7 @@ import "./NavTabs.css";
 export default function  NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="NavTab-container">
-            <p className="test">Shawn Thomas</p>
+            <p className="app-header-title">Shawn Thomas</p>
       <ul className="nav nav-tabs sticky-md-top">
         <div className="nav-items nav">
 

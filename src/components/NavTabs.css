@@ -21,7 +21,7 @@
 /* .social-links {
     justify-content: center !important;
 } */
-.test {
+.app-header-title {
     justify-content: left !important;
     border-width: 1px;
     border-color: #137ae1;
@@ -36,7 +36,7 @@
 
 
 @media screen and (max-width: 428px) {
-    .test {
+    .app-header-title {
         justify-content: center !important;
         display: flex;
         border-width: 1px;
@@ -47,5 +47,10 @@
         font-size: 30px;
         /* background-color: green; */
     
+    }
+
+    .nav-tabs {
+        justify-content: center !important;
+        /* background-color: green; */
     }
 }

@@ -29,6 +29,9 @@ const Contact = () => {
       setEmail("");
       setMessage("");
       setEmailSent(true);
+      alert(
+        "The functionality of the contact form is under construction. If you would like to give in contact with me, please reach out to me on Linkedin or Twitter."
+      );
     } else {
       alert("Please fill in all fields.");
     }
@@ -59,7 +62,8 @@ const Contact = () => {
 
         <span className={emailSent ? "visible" : null}>
           The functionality of the contact form is under construction. If you
-          would like to give in contact with me, please reach out to me on Linkedin or Twitter.
+          would like to give in contact with me, please reach out to me on
+          Linkedin or Twitter.
         </span>
         {/* Thank you for your message, I will be in touch very soon! */}
       </div>

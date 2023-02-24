@@ -17,6 +17,3 @@ export default function Portfolio() {
   </div>
 );
 }
-
-
-// <h2 className='card-title mt-4 mb-4'>

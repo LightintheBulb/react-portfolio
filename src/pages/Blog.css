@@ -1,0 +1,16 @@
+.coming-soon-header {
+  justify-content: center !important;
+  display: flex;
+  border-width: 1px;
+  border-color: #137ae1;
+  padding: 7px 14px;
+  margin: 0px 0px -1px;
+  color: var(--textColor2);
+  font-size: 30px;
+  /* background-color: green; */
+  align-content: center;
+}
+
+body {
+    align-content: center;
+}

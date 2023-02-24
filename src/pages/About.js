@@ -19,7 +19,6 @@ export default function About() {
             </figure>
           </div>
           <div className="card-content mx-4">
-            {/* <div className='col-sm-12 col-md-9 mr-2 mb-4'> */}
             <h2 className="card-title mt-4 mb-4">
               <u>About Me</u>
             </h2>
@@ -41,8 +40,8 @@ export default function About() {
             <p className="about-card-text">
               I'm a big believer in work-life balance, and I strive to maintain
               a healthy balance between my professional and personal
-              pursuits. Outside of coding, I enjoy fishing, sports, and all things
-              movies, television, and gaming!
+              pursuits. Other than coding, I enjoy fishing, sports, and all things
+              outdoor related.
             </p>
             <p className="about-card-text">
               If you're interested in working together or learning more about my

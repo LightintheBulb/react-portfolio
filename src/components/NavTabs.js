@@ -10,8 +10,8 @@ export default function  NavTabs({ currentPage, handlePageChange }) {
       <ul className="nav nav-tabs sticky-md-top">
         <div className="nav-items nav">
 
-        <li className="nav-item">
-          {/* <a
+        {/* <li className="nav-item">
+          <a
             href="#home"
             onClick={() => handlePageChange("Shawn Thomas")}
             // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -19,11 +19,11 @@ export default function  NavTabs({ currentPage, handlePageChange }) {
             className={currentPage === "Home" ? "nav-link active" : "nav-link"}
           >
             Home
-          </a> */}
-        </li>
+          </a>
+        </li> */}
         <li className="nav-item">
           <a
-            href="#about"
+            href="#home"
             onClick={() => handlePageChange("About Me")}
             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={

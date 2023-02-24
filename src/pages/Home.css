@@ -1,2 +1,52 @@
+  /* .homePage-img {
+    max-width: 2000px;
+    height: auto;
+    padding-bottom: auto;
+    margin-top: auto;
+    object-position: center;
+    background-size: contain;
 
 
+  }
+  
+  .bg-image {
+    width: 100%;
+    Height: 428px;
+    background: url("../assets/downtown-raleigh.png") no-repeat center fixed;
+    background-size: contain;
+
+  }
+
+  @media screen and (max-width: 428px) {
+    .homePage-img {
+        width: 100%;
+        justify-content: center;
+        float: center;
+        display: block;
+        padding-bottom: 1px;
+        margin-top: -2px;
+        margin-bottom: 1px;
+        margin-right: 1px;
+    }
+
+    .about-figure-image{
+        justify-content: center;
+        display: flex;
+        margin-top: 5%;
+    }
+
+    .card-title{
+        justify-content: center;
+        display: flex;
+        
+    }
+
+    .bg-image {
+        width: 100%;
+        Height: 428px;
+        background: url("../assets/downtown-raleigh.png") no-repeat center center fixed;
+        background-size: contain;
+    
+      }
+  }
+ */

@@ -1,15 +1,16 @@
 :root {
-  --textColor1: rgba(17, 224, 231, 0.9);
-  --textColor2: rgba(158, 208, 133, 0.9);
-  --altTextcolor: rgba(122, 49, 128, 0.9);
-  --linkTextcolor: rgba(192, 225, 231, 0.9);
+  --textColor1: rgba(0, 0, 0, 0.9);
+  --textColor2: rgba(100, 119, 149, 0.9);
+  --textColor3: rgba(13, 110, 253, 1);
+  --altTextcolor: rgba(211, 245, 245, 0.9);
+  --linkTextcolor: rgba(13, 110, 253, 1);
   --buttonColor: rgba(162, 127, 135, 0.9);
   --buttonColorAlt: rgba(231, 224, 17, 0.9);
-  --backgroupColor1: rgba(234, 159, 106, 0.89);
-  --backgroupColor2: rgba(249, 136, 55, 0.89);
-  --backgroundColor3: rgba(176, 180, 228, 0.9);
+  --backgroupColor1: rgba(235, 225, 218, 0.89);
+  --backgroupColor2: rgba(242, 242, 242, 0.95);
+  --backgroundColor3: rgba(50,83,112,1);
   --glowColor: rgba(0, 0, 0, 0.9);
-  --shadowBoxcolor: rgba(244, 236, 32, 0.9);
+  --shadowBoxcolor: rgba(244, 237, 32, 0);
   --dividerColor: rgba(0, 0, 0, 0.9);
 }
 
@@ -18,3 +19,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
+background: rgb(12,51,85);
+background: radial-gradient(circle, rgba(12,51,85,1) 0%, rgba(106,130,151,1) 60%); 

@@ -62,6 +62,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                 >
                   <i className="fa-brands fa-github fa-2xl"></i>
+                  <p>Github</p>
                 </a>
                 <a
                   href={project.deployLink}
@@ -69,6 +70,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                 >
                   <i className="fa-regular fa-window-restore fa-2xl"></i>
+                  <p>Deployed Site</p>
                 </a>
               </div>
             </div>

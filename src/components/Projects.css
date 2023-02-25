@@ -20,8 +20,9 @@
     width: 80% !important;
   }
 
-  .project-title-text{
+.project-title-text{
     color: var(--textColor3);
+    align-items: center;
   }
   
   .projects:hover {
@@ -48,6 +49,14 @@
   .projects:hover .app-links a{
     display:block;
 
+  }
+
+  .projects #project-title-container {
+    align-items: center;
+    align-content: center;
+
+    margin-top: 45%;
+    
   }
 
   /* .app-links:hover {

@@ -47,7 +47,7 @@ export default function Projects() {
               style={{ backgroundImage: `url(${project.img})` }}
               key={`${project.title}-${project.id}`}
             >
-              <div className="d-flex justify-content-around text-container">
+              <div id="project-title-container" className="d-flex justify-content-around text-container">
                 <p className="project-title-text">
                   <h6>{`${project.title}`}</h6>{" "}
                 </p>

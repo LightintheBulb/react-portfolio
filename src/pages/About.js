@@ -22,30 +22,30 @@ export default function About() {
             </h2>
             <hr />
             <p className="about-card-text">
-              Hello! My name is Shawn, and I'm a aspiring software developer
+              Hello! My name is Shawn, and I'm an aspiring software developer
               with a passion for building software that solves real-world
               problems. I'm constantly looking for new ways to improve my skills
-              so that I am able to make a positive impact.
+              so that I can make a positive impact.
             </p>
             <p className="about-card-text">
               I have 5 years of experience working with various computer systems
-              and software as an systems admin. I'm always eager to learn new
+              and software as an IT professional. I'm always eager to learn new
               things. I understand the importance of staying up-to-date with the
               latest developments in the tech industry, and I make a point to
               keep my skills sharp by attending conferences, reading tech blogs,
-              and collaborating with other.
+              and collaborating with others.
             </p>
             <p className="about-card-text">
               I'm a big believer in work-life balance, and I strive to maintain
-              a healthy balance between my professional and personal
-              pursuits. Other than coding, I enjoy fishing, sports, and all things
-              outdoor related.
+              a healthy balance between my professional and personal pursuits.
+              Other than coding, I enjoy fishing, sports, and all things
+              outdoor-related.
             </p>
             <p className="about-card-text">
               If you're interested in working together or learning more about my
-              work, please don't hesitate to reach out me on twitter. If you
+              work, please don't hesitate to reach out to me on Twitter. If you
               would like to see what I have been working on, check out my
-              Github. I look forward to hearing from you!
+              GitHub. I look forward to hearing from you!
             </p>
           </div>
         </div>

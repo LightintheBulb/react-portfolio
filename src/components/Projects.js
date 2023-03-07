@@ -4,32 +4,40 @@ import quarterArcade from "../assets/quarterArcade.png";
 import flycastTripPlanner from "../assets/flycastTripPlanner.png";
 import passwordGen from "../assets/passwordGen.png";
 import tictactoe from "../assets/tictactoe.png";
+import getMoving from "../assets/getMoving.png"
 
 export default function Projects() {
   const projectData = [
     {
       id: 1,
+      title: "Project 3: Get Moving!",
+      img: getMoving,
+      deployLink: "http://projectthreemern.herokuapp.com/",
+      repoLink: "https://github.com/jicard/Project-3-Repo",
+    },
+    {
+      id: 2,
       title: "Project 2: Quarter Arcade",
       img: quarterArcade,
       deployLink: "https://quarterarcade.herokuapp.com/login-signup?",
       repoLink: "https://github.com/galegro2022/Arcade-",
     },
     {
-      id: 2,
+      id: 3,
       title: "Project 1: Flycast Trip Planner",
       img: flycastTripPlanner,
       deployLink: "https://zberkley88.github.io/flycast-trip-planner",
       repoLink: "https://zberkley88.github.io/flycast-trip-planner/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Password Generator",
       img: passwordGen,
       deployLink: "https://github.com",
       repoLink: "https://github.com",
     },
     {
-      id: 4,
+      id: 5,
       title: "Tic Tac Toe",
       img: tictactoe,
       deployLink: "https://github.com",
@@ -37,11 +45,10 @@ export default function Projects() {
     },
   ];
   return (
-    <div className="d-flex justify-content-around flex-wrap">
+    <div className="d-flex justify-content-around flex-wrap .project-container">
       {projectData.map((project) => {
         return (
           <>
-            <div className="overlay"></div>
             <div
               className="projects"
               style={{ backgroundImage: `url(${project.img})` }}

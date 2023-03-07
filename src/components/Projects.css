@@ -1,9 +1,15 @@
+.project-container {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem; */
+}
+
 .projects {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.4s;
-    width: 50%;
+    width: 400px;
     margin: 10px auto 10px;
     position: relative;
     padding-bottom: 5rem;
@@ -23,6 +29,9 @@
 .project-title-text{
     color: var(--textColor3);
     align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    align-content: center;
   }
   
   .projects:hover {
@@ -74,6 +83,16 @@
     }
   }
   
+  @media screen and (max-width: 828px) {
+
+  }
+
+
+
+
+
+
+
   @media screen and (max-width: 428px) {
     .projects {
       border-radius: 8px;

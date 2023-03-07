@@ -37,7 +37,7 @@ export default function  NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#portfolio"
             onClick={() => handlePageChange("Portfolio")}
-            // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={
               currentPage === "Portfolio" ? "nav-link active" : "nav-link"
             }
@@ -49,7 +49,7 @@ export default function  NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#blog"
             onClick={() => handlePageChange("Blog")}
-            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === "Blog" ? "nav-link active" : "nav-link"}
           >
             Blog
@@ -65,6 +65,18 @@ export default function  NavTabs({ currentPage, handlePageChange }) {
             }
           >
             Contact
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
+            }
+          >
+            Resume
           </a>
         </li>
         </div>

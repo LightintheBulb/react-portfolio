@@ -6,8 +6,8 @@
   --linkTextcolor: rgba(13, 110, 253, 1);
   --buttonColor: rgba(162, 127, 135, 0.9);
   --buttonColorAlt: rgba(231, 224, 17, 0.9);
-  --backgroupColor1: rgba(235, 225, 218, 0.89);
-  --backgroupColor2: rgba(242, 242, 242, 0.95);
+  --backgroundColor1: rgba(235, 225, 218, 0.89);
+  --backgroundColor2: rgba(242, 242, 242, 0.95);
   --backgroundColor3: rgb(0, 26, 49);
   --glowColor: rgba(0, 0, 0, 0.9);
   --shadowBoxcolor: rgba(244, 237, 32, 0);
@@ -19,14 +19,30 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
 
 .card-title{
   justify-content: center;
   display: flex;
 }
 
+.section-header {
+  justify-content: center !important;
+  display: flex;
+  border-width: 1px;
+  border-color: #137ae1;
+  padding: 7px 14px;
+  margin: 0px 0px -1px;
+  color: var(--textColor2);
+  font-size: 30px;
+  /* background-color: green; */
+  align-content: center;
+  text-decoration-line: underline;
+}
 
-@media screen and (max-width: 822px) {
+@media screen and (max-width: 828px) {
   .card-title{
       justify-content: center;
       display: flex;

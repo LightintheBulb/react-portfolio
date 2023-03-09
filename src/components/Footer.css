@@ -8,13 +8,13 @@
     align-content: center;
 }
 .footer-container {
-   /* background-color: var(--backgroupColor1); */
+   /* background-color: var(--backgroundColor1); */
    display: flex;
 }
 
 @media screen and (max-width: 428px) {
     .footer-container {
-        /* background-color: var(--backgroupColor2); */
+        /* background-color: var(--backgroundColor2); */
     }
   }
 

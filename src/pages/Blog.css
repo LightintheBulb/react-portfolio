@@ -1,4 +1,4 @@
-.coming-soon-header {
+.section-header {
   justify-content: center !important;
   display: flex;
   border-width: 1px;
@@ -9,6 +9,7 @@
   font-size: 30px;
   /* background-color: green; */
   align-content: center;
+  text-decoration-line: underline;
 }
 
 body {

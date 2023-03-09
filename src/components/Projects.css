@@ -17,7 +17,7 @@
   }
   
   .custom-portfolio-container {
-    background-color: var(--backgroupColor2) !important;
+    background-color: var(--backgroundColor2) !important;
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     box-shadow: 2px 4px 6px var(--shadowBoxcolor);

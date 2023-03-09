@@ -7,7 +7,8 @@ export default function About() {
     <div className="container-fluid custom-about-container pb-1">
       <div className="card mx-auto custom-card">
         <div className="card-body">
-          <div className="col-sm-6 col-md-2 pr-3 mb-4">
+          <div className="figure-container">
+          {/* <div className="col-sm-6 col-md-2 pr-3 mb-4"> */}
             <figure className="about-figure-image">
               <img
                 src={aboutPhoto}
@@ -17,7 +18,7 @@ export default function About() {
             </figure>
           </div>
           <div className="card-content mx-4">
-            <h2 className="card-title mt-4 mb-4">
+            <h2 className="section-header ">
               <u>About Me</u>
             </h2>
             <hr />

@@ -67,9 +67,9 @@ export default function Projects() {
                   <h6>{`${project.title}`}</h6>{" "}
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <p className="project-type-text">{project.type}</p>
-              </div>
+              </div> */}
               <div className="app-links d-flex justify-content-center">
                 <a
                   href={project.repoLink}

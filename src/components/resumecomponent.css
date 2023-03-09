@@ -1,0 +1,21 @@
+.resume-container{
+    justify-content: center !important;
+    display: flex;
+    border-width: 1px;
+    border-color: #137ae1;
+    padding: 7px 14px;
+    margin: 0px 0px -1px;
+    color: black;
+    font-size: 30px;
+    /* background-color: green; */
+    align-content: center;
+    align-items: flex-end;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.download-btn{
+    display:flex;
+ 
+}

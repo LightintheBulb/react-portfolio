@@ -1,5 +1,6 @@
 import React from 'react';
 import Proficiencies from '../components/ProficienciesList';
+import ResumeSection from '../components/resumecomponent';
 import './Resume.css'
 
 
@@ -7,9 +8,12 @@ export default function Resume() {
     return (
         <div className="container-fluid custom-about-container pb-1">
         <Proficiencies />
+        <ResumeSection />
         </div>
     );
 }
+
+
 
 //   return (
 //     <div>

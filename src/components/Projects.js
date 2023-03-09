@@ -3,45 +3,53 @@ import "./Projects.css";
 import quarterArcade from "../assets/quarterArcade.png";
 import flycastTripPlanner from "../assets/flycastTripPlanner.png";
 import passwordGen from "../assets/passwordGen.png";
-import tictactoe from "../assets/tictactoe.png";
-import getMoving from "../assets/getMoving.png"
+import noteTaker from "../assets/noteTaker.png";
+import getMoving from "../assets/getMoving.png";
+import workdayScheduler from "../assets/workdayScheduler.png";
 
 export default function Projects() {
   const projectData = [
     {
       id: 1,
-      title: "Project 3: Get Moving!",
+      title: "Get Moving!",
       img: getMoving,
       deployLink: "http://projectthreemern.herokuapp.com/",
       repoLink: "https://github.com/jicard/Project-3-Repo",
     },
     {
       id: 2,
-      title: "Project 2: Quarter Arcade",
+      title: "Quarter Arcade",
       img: quarterArcade,
       deployLink: "https://quarterarcade.herokuapp.com/login-signup?",
       repoLink: "https://github.com/galegro2022/Arcade-",
     },
     {
       id: 3,
-      title: "Project 1: Flycast Trip Planner",
+      title: "Flycast Trip Planner",
       img: flycastTripPlanner,
       deployLink: "https://zberkley88.github.io/flycast-trip-planner",
       repoLink: "https://zberkley88.github.io/flycast-trip-planner/",
     },
     {
       id: 4,
-      title: "Password Generator",
-      img: passwordGen,
-      deployLink: "https://github.com",
-      repoLink: "https://github.com",
+      title: "Note Taker",
+      img: noteTaker,
+      deployLink: "https://elastic-adorable-pad.herokuapp.com",
+      repoLink: "https://github.com/LightintheBulb/ELASTIC-adorable-PAD",
+    },
+    {
+      id: 6,
+      title: "Work Day Scheduler",
+      img: workdayScheduler,
+      deployLink: "https://lightinthebulb.github.io/work-day-scheduler/",
+      repoLink: "https://github.com/LightintheBulb/work-day-scheduler",
     },
     {
       id: 5,
-      title: "Tic Tac Toe",
-      img: tictactoe,
-      deployLink: "https://github.com",
-      repoLink: "https://github.com",
+      title: "Password Generator",
+      img: passwordGen,
+      deployLink: "https://lightinthebulb.github.io/peewee-pswGen",
+      repoLink: "https://github.com/LightintheBulb/peewee-pswGen",
     },
   ];
   return (

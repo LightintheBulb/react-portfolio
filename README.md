@@ -8,7 +8,9 @@ My Dev Portfolio v2
 https://shawncthomas.com
 
 ## Screenshot
+<img width="543" alt="portfolio-iphone14pro" src="https://user-images.githubusercontent.com/96213325/224430101-4be90fba-c86a-422e-a5d4-70e9fc1fef8d.png">
 
+<img width="572" alt="portfolio-monitor" src="https://user-images.githubusercontent.com/96213325/224430154-06fd2d28-9ce2-4b59-982c-6e96e6e065d4.png">
 
 
 
@@ -32,7 +34,7 @@ Express
 BootStrap
 React
 EmailJS
-Linode Hosting
+Linode (Hosting)
 ```
 
 ## Contributors
